@@ -14,12 +14,3 @@ Movie.create(title: "Joker", overview: "A mentally troubled stand-up comedian em
 Movie.create(title: "The Dark Knight", overview: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.", poster_url: "https://www.themoviedb.org/t/p/w1280/aAGYbAbikfmiYOO2PECKSFhbMxT.jpg", rating: 8.8)
 Movie.create(title: "Hangover", overview: "Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding.", poster_url: "https://www.themoviedb.org/t/p/w1280/cwoVDVzJuGAD3OAji9OkHENrUB0.jpg", rating: 7.7)
 Movie.create(title: "Tenet", overview: "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.", poster_url: "https://www.themoviedb.org/t/p/w1280/oh8XmxWlySHgGLlx8QOBmq9k72j.jpg", rating: 7.3)
-
-List.create(name: "Drama")
-List.create(name: "Action")
-List.create(name: "Romance")
-List.create(name: "Science Fiction")
-List.create(name: "Thriller")
-List.create(name: "Horror")
-List.create(name: "Comedy")
-List.create(name: "Anime")

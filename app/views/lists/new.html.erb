@@ -1,8 +1,8 @@
 <div class="container mt-3">
   <%= simple_form_for (@list) do |f| %>
-    <%= f.input :name, label_html: {class: "text-white"} %>
-    <%= f.input :photo, as: :file, label_html: {class: "text-white"} %>
-    <%= f.submit "Submit review", class: "btn btn-light", value: "Create list" %>
+    <%= f.input :name, label_html: {class: "text-black"} %>
+    <%= f.input :photo, as: :file, label_html: {class: "text-black"} %>
+    <%= f.submit "Submit list", class: "btn btn-light", value: "Create list" %>
   <% end %>
-  <%= link_to "back to main menu", lists_path, class: "btn btn-light mt-3" %>
+  <%= link_to "Back to main menu", lists_path, class: "btn btn-light mt-3" %>
 </div>
