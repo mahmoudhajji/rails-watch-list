@@ -3,3 +3,12 @@
 @import "avatar";
 @import "form_legend_clear";
 @import "navbar";
+@import "banner";
+
+body {
+    background-image: linear-gradient(#28313b, #ffffff);
+    min-height: 100vh;
+    h1 {
+      color: white;
+    }
+  }

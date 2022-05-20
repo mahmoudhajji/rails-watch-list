@@ -1,6 +1,9 @@
 <div id="banner">
   <h1>Here is your list of movies</h1>
   <h3>Grab some popcorn and choose one for tonight</h3>
+  <p>
+  <span data-controller="typed-js"></span>
+</p>
 </div>
 
 <div class="container">
@@ -12,7 +15,7 @@
           <% if list.photo.attached? %>
           <%= cl_image_tag list.photo.key, height: 250, crop: :fill %>
           <% else %>
-          <%= image_tag "/app/assets/images/Movie_Park_Germany_Logo.png" %>
+          <%= image_tag "/app/assets/images/fragezeichen.png" %>
           <% end %>
           <div class="card-body d-flex justify-content-center">
             <%= link_to "#{list.name}", list_path(list), class: "card-title text-light" %>
