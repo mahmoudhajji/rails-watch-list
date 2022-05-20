@@ -1,0 +1,8 @@
+<div class="container mt-3">
+  <%= simple_form_for [@list, @bookmark] do |f| %>
+    <%= f.input :comment, label_html: {class: "text-light"} %>
+    <%= f.association :movie, label_html: {class: "text-light"} %>
+    <%= f.input :photo, as: :file, label_html: {class: "text-light"} %>
+    <%= f.button :submit , class: "btn btn-light" %>
+  <% end %>
+</div>
